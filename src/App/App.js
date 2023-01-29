@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react"; // paso 1
 import styles from "./App.module.css";
-import Cards from "./components/Cards.jsx";
-import Form from "./components/Form.jsx";
-import NavBar from "./components/NavBar.jsx";
-import About from "./components/About.jsx";
-import Detail from "./components/Detail.jsx";
-import Favorites from "./components/Favorites.jsx";
-import Portfolio from "./components/Portfolio.jsx";
+import Cards from "../components/Cards.jsx";
+import Form from "../components/Form.jsx";
+import NavBar from "../components/NavBar.jsx";
+import About from "../components/About.jsx";
+import Detail from "../components/Detail.jsx";
+import Favorites from "../components/Favorites.jsx";
+import Portfolio from "../components/Portfolio.jsx";
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 
 function App() {
   const [access, setAccess] = useState(false);
-  const username = "33b@soyHenry.com";
+  const username = "rickmorty@app.com";
   const password = "@Model101";
   const navigate = useNavigate();
 
